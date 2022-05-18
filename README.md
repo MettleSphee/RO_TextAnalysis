@@ -19,6 +19,7 @@ redundancy = 1 - efficiency;
 If a letter doesn't appear in the text file (for example, W),
 it will still be shown in the output but won't be taken into account when performing the calculations.
 The program contains comments in Romanian, detailing some parts of the process.
+A live version is available at: https://mettlesphee.github.io/RO_TextAnalysis/
 
 For more information, visit the following links on Wikipedia which detail both Huffman and Shannon-Fano coding:
 https://en.wikipedia.org/wiki/Huffman_coding
