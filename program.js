@@ -56,7 +56,7 @@ function process(event) {
 	var percentage={};
 	var total_percentage=0.000,entropy=0.000,entropy_add=0.000;
 	var one_equal='no';
-	document.write("<html><head><link rel='stylesheet' href='style.css'></head><body style='width:320px;'><h1>Text analysis on the Romanian alphabet:</h1><br><table><tr><th>Litera</th><th>Afisari</th><th>Procent Aparitie</th><th>Cod Huffman</th></tr>");
+	document.write("<html><head><link rel='stylesheet' href='style.css'></head><body style='width:320px;'><h1>Text analysis on the Romanian alphabet:</h1><br><table><tr><th>Letter</th><th>Counts</th><th>Percentage</th><th>Huffman Code</th></tr>");
 	for (ch in counts) {
 		if (biggest<=counts[ch]) biggest=counts[ch];
 		percentage[ch]=counts[ch]/char_count + 0.000;
