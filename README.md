@@ -18,6 +18,7 @@ redundancy = 1 - efficiency;
 
 If a letter doesn't appear in the text file (for example, W),
 it will still be shown in the output but won't be taken into account when performing the calculations.
+The program contains comments in Romanian, detailing some parts of the process.
 
 For more information, visit the following links on Wikipedia which detail both Huffman and Shannon-Fano coding:
 https://en.wikipedia.org/wiki/Huffman_coding
